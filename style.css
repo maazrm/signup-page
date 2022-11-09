@@ -1,0 +1,162 @@
+html{
+    font-size: 16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#content {
+    height: 100vh;
+    width: 100vw;
+    /* display: flex; */
+}
+
+#content, .logo{
+    display: flex;
+}
+
+.image {
+    background-image: url(./imgs/side\ pic\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40vw;
+}
+
+.united {
+    height: 10vh;
+}
+
+
+
+.logo h1{
+    color: white;
+    font-family: 'Skranji', cursive;
+}
+
+.logo{
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.699);
+    position: relative;
+    top: 20vh;
+    gap: 1vw;
+    padding: 1rem 0;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.right{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: column nowrap; */
+    /* justify-content: center; */
+    width: 60vw;
+
+    /* padding-left: 4vh; */
+}
+
+.info{
+    /* display: flex; */
+    font-size: 1.3rem;
+    /* padding-left: 3vh; */
+    /* padding-right: 15vh; */
+    /* margin-bottom: 10vw; */
+    padding: 6.25rem;
+
+    /* background-color: red; */
+
+    /* position: relative; */
+    /* bottom: 10vh; */
+    /* padding: 1.3rem 1.3rem; */
+}
+
+.info p, form{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.form-card{
+    padding: 4rem 0 4rem 6.25rem;
+
+    display: flex;
+    flex-flow: row wrap;
+    box-shadow: 0 10px 40px -1px rgb(22, 22, 22);
+    /* flex-direction: column; */
+}
+
+.form-title{
+    width: 100%;
+    font-size: 1.3rem;
+    /* gap: 1rem; */
+}
+
+/* .input{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+} */
+
+.user-details{
+    /* border: 5px black solid; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 40vw;
+    justify-content: space-between;
+}
+
+.input{
+    width: 20rem;
+    margin: 20px 0 12px 0;
+    text-transform: uppercase;
+}
+
+.input input{
+    /* width: 0rem; */
+    height: 2rem;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #d0d2d4;
+}
+
+.submit-btn{
+    /* background-color: red; */
+    width: 100%;
+    margin-top: 2rem;
+    padding-left: 6.25rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.submit-btn >p {
+    margin-top: 1rem;
+    font-size: 1.15rem;
+}
+
+.submit-btn > p > a{
+    text-decoration: none;
+    color: #66af54;
+}
+
+.submit-btn button{
+    color: white;
+    padding: 1rem 3.25rem;
+    font-size: 1.25rem;
+    background-color: #66af54;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input:focus{
+    border: 1px solid #43bcf0;
+}
+
+input:invalid{
+    border: 1px solid red;
+}
